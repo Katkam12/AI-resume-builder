@@ -14,7 +14,7 @@ st.set_page_config(
     page_title="AI Resume & Portfolio Builder",
     layout="wide",
 )
-
+what line
 # Custom CSS for gradient background and glassmorphism
 st.markdown(
     """
@@ -113,7 +113,7 @@ openai_client = None
 supabase_client: Client | None = None
 
 if OPENAI_API_KEY:
-    openai_client = Client(api_key=OPENAI_API_KEY)
+   openai_client = OpenAI(api_key=OPENAI_API_KEY)
 else:
     st.warning("OPENAI_API_KEY is not set in environment variables. AI features may not work.", icon="⚠️")
 
