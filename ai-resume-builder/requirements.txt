@@ -1,6 +1,7 @@
 streamlit
 pandas
 openai
-supabase-py
+supabase
 python-docx
 fpdf
+
