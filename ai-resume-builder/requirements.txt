@@ -1,0 +1,7 @@
+requirements.txt
+   streamlit
+   pandas
+   openai
+   supabase-py
+   python-docx
+   fpdf
