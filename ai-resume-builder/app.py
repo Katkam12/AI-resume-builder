@@ -14,7 +14,6 @@ st.set_page_config(
     page_title="AI Resume & Portfolio Builder",
     layout="wide",
 )
-what line
 # Custom CSS for gradient background and glassmorphism
 st.markdown(
     """
